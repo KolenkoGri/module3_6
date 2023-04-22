@@ -1,0 +1,225 @@
+.about {
+    padding-top: 30px;
+}
+
+.about__title {
+    margin-bottom: 15px;
+    width: 290px;
+    height: 49px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #383A4C;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__description {
+    width: 51px;
+    height: 23px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #383A4C;
+    padding-top: 2px;
+}
+
+.about__text {
+    width: 290px;
+    height: 85px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #383A4C;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+    margin-bottom: 60px;
+}
+
+.about__image {
+    position: relative;
+    width: 104px;
+    height: 104px;
+    background-image: url(image/circle.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+
+.about__number {
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    width: 42px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.about__figure {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.about__figcaption {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 25.5px;
+    text-align: center;
+    color: #383A4C;
+}
+
+.about__line {
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    background: #383A4C;
+}
+
+.about__paragraph {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 26px;
+    align-items: center;
+    column-gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .about__title {
+        width: 650px;
+        height: 59px;
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    .about__text {
+        width: 580px;
+        height: 59px;
+    }
+
+    .about__advantage {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about {
+        padding-top: 70px;
+    }
+
+    .about__description {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .about__paragraph {
+        margin-bottom: 31px;
+    }
+
+    .about__title {
+        width: 812px;
+        height: 38px;
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 23px;
+    }
+
+    .about__text {
+        width: 666px;
+        height: 76px;
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 52px;
+    }
+
+    .about__advantage {
+        margin-bottom: 70px;
+        justify-content: space-evenly;
+    }
+
+    .about__figure {
+        margin: 0;
+    }
+
+    .about__figcaption {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .about__title {
+        width: 884px;
+        height: 42px;
+        font-size: 35px;
+        line-height: 41px;
+        margin-bottom: 25px;
+    }
+
+    .about__description {
+        width: 57px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .about__advantage {
+        justify-content: center;
+        column-gap: 46px;
+    }
+
+    .about__paragraph {
+        margin-bottom: 35px;
+    }
+
+    .about__line {
+        width: 43px;
+        height: 2px;
+    }
+
+    .about__text {
+        width: 724px;
+        height: 83px;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 50px;
+    }
+    .about__figure {
+        width: 200px;
+    }
+
+    .about__image {
+        width: 122px;
+        height: 122px;
+        margin-bottom: 15px;
+    }
+
+    .about__figcaption {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .about__number {
+        top: 30%;
+        left: 37%;    
+        width: 33px;
+        height: 57px;
+        font-size: 57px;
+        line-height: 57px;
+    }
+}
